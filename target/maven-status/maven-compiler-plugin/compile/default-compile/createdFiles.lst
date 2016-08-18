@@ -1,4 +1,7 @@
 com/hortonworks/com/SupportToolBackend/App.class
 dto/CreateClusterDTO.class
+versioncheck/CheckVersion.class
 com/hortonworks/com/SupportToolBackend/App$1.class
+createcluster/CreateCluster.class
 controller/AppController.class
+hdfsauditlog/ParseHdfsLogs.class

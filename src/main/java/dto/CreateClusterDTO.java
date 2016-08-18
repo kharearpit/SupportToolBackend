@@ -10,7 +10,51 @@ public class CreateClusterDTO {
 	private String default_password;
 	private String cluster_version;
 	private String host_names;
+	private String project_name;
+	private String utils_version;
+	private String flavor_name;
+	private String keypair_name;
+	private String pvt_keyfile;
+	private String okta_id;
 	
+	
+	public String getOkta_id() {
+		return okta_id;
+	}
+	public void setOkta_id(String okta_id) {
+		this.okta_id = okta_id;
+	}
+	public String getUtils_version() {
+		return utils_version;
+	}
+	public void setUtils_version(String utils_version) {
+		this.utils_version = utils_version;
+	}
+	
+	public String getFlavor_name() {
+		return flavor_name;
+	}
+	public void setFlavor_name(String flavor_name) {
+		this.flavor_name = flavor_name;
+	}
+	public String getKeypair_name() {
+		return keypair_name;
+	}
+	public void setKeypair_name(String keypair_name) {
+		this.keypair_name = keypair_name;
+	}
+	public String getPvt_keyfile() {
+		return pvt_keyfile;
+	}
+	public void setPvt_keyfile(String pvt_keyfile) {
+		this.pvt_keyfile = pvt_keyfile;
+	}
+	public String getProject_name() {
+		return project_name;
+	}
+	public void setProject_name(String project_name) {
+		this.project_name = project_name;
+	}
 	public String getCluster_name() {
 		return cluster_name;
 	}
